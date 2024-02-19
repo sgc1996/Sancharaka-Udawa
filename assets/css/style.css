@@ -4564,7 +4564,7 @@ label {
 .meeta-event-schedule-banner::before {
   position: absolute;
   content: '';
-  background-color: #000000ab;
+  background-color: #005cad;
   top: 0;
   left: 0;
   width: 100%;
