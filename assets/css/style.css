@@ -140,7 +140,7 @@ a, button {
   cursor: pointer;
 }
 
-a, button, img, input {
+a, button, input {
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   outline: 0;
 }
@@ -10604,3 +10604,25 @@ label {
 }
 
 /* Home Page Table Start End */
+
+/* Stall Plan */
+.zoom_image {
+  overflow: hidden;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1000px 10px black;
+  cursor: zoom-in;
+
+  &.zoom_mode_active {
+    cursor: zoom-out;
+  }
+
+  .zoom_image img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    transition: transform 200ms linear;
+  }
+}
+/* End Stall Plan */
