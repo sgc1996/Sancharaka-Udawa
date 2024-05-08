@@ -4436,13 +4436,16 @@ label {
 }
 
 .meeta-event-sponsors-3 .meeta-sponsor-wrap .meeta-sponsor-logo {
-  background: #fafafa;
+  background: #ffffff;
   padding: 30px;
   margin-top: 10px;
   height: 130px;
   line-height: 65px;
   text-align: center;
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .meeta-event-sponsors-3 .meeta-sponsor-wrap .meeta-sponsor-logo:hover {
